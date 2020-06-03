@@ -17,7 +17,7 @@ Copy the questions below into the first-lastname.txt file on your github repo - 
     img and link.
     
     6. What do we put in the head of our HTML document? 
-    we put things like meta tags, links, the title of the webpage.
+    We put metadata like linksa and the title of the webpage.
     
     7. What is an id? 
     An id is used to identify an element. 
@@ -77,7 +77,7 @@ Copy the questions below into the first-lastname.txt file on your github repo - 
     Its a selector that gains access to elements that are within other elements. It would be useful when changing the style of spcific elements within divs or sections.
     
     23. How do you select all links within a div with the class of sidebar?
-    .sidebar a{
+    .sidebar a {
 
     }
     
@@ -121,11 +121,28 @@ Copy the questions below into the first-lastname.txt file on your github repo - 
     git push
     
     37. Walk me through Lambda's git flow. 
+        1) Fork the repo
+        2) Add TL as a collaborator
+        3) Clone the repo
+        4) Create a branch
+        5) Push any updates to the branch
+        6) Create a pull request 
 
 Stretch Questions
 
     1. What is the difference between an inline element and a block element?
+    Block elements take up the whole width to display content while inline only takes required width.
+
     2. What happens when an element is positioned absolutely? 
+    It places that element exactly where it is told to be rather than flow with the rest of the page.
+    
     3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+    display: inline; will allow the element to behave like this. 
+    
     4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+    Block: div, section, footer
+    Inline: span, a(anchor)
+    Inline-block: img
+    
     5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them? 
+    
